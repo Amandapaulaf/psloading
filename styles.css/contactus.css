@@ -1,0 +1,100 @@
+body {
+    background-color: var(--ligth-pink);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-image: url(/assets/Frame\ 8.png);
+    background-size: cover;
+    position: relative;
+}
+
+.menu {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 15px 0;
+    gap: 200px;
+    z-index: 1000;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--ligth-pink);
+    height: 30px;
+}
+
+.menu a {
+    color: var(--grey);
+    text-decoration: none;
+    font-family: 'Inter';
+
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+.logo-easyfood {
+    width: 60px;
+    height: 60px;
+}
+
+body main{
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    width: 100%;
+    align-items: center;
+}
+
+body .main-div {
+    width: 900px;
+    height: 600px;
+    background-color: var(--white);
+    border-radius: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 40px;
+}
+
+.main-div img{
+    height: 600px;
+    width: 450px;
+}
+
+.apresentation-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 32px;
+    height: 600px;
+    width: 450px;
+}
+
+.apresentation-text h1{
+    font-size: 56px;
+    color: var(--grey);
+    font-family: 'Josefin Sans';
+}
+
+.div-contacts{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.div-contacts a{
+    text-decoration: none;
+    color: var(--grey);
+    font-size: 24px;
+    font-family: 'Josefin Sans';
+}
+
+.div-contacts img{
+    width: 40px;
+    height: 40px;
+}
+

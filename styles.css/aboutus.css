@@ -1,0 +1,79 @@
+body {
+  background-color: var(--ligth-pink);
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(/assets/Rectangle\ 5.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  position: relative;
+
+}
+
+.menu {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  padding: 15px 0;
+  gap: 200px;
+  z-index: 1000;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--ligth-pink);
+  height: 30px;
+}
+
+.menu a {
+  color: var(--grey);
+  text-decoration: none;
+  font-family: 'Inter';
+
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}
+
+.logo-easyfood {
+  width: 60px;
+  height: 60px;
+}
+
+body main {
+  padding-top: 100px;;
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+
+.apresentation-text {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  width: 600px;
+  height: 600px;
+  color: var(--grey);
+  justify-content: center;
+
+}
+
+.apresentation-text h1 {
+  font-size: 56px;
+  font-family: 'Josefin Sans';
+}
+
+.apresentation-text p {
+  font-size: 32px;
+  font-family: 'Josefin Sans';
+}
+
+body div .easyfood{
+  color: var(--green);
+}
+
+body main img{
+  height: 600px;
+  width: 600px;
+}
